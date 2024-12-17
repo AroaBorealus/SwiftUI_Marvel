@@ -8,17 +8,34 @@
 import SwiftUI
 
 struct LoadingView: View {
+    
+    @Environment(AppStateVM.self) var appState
+    
+    @State var viewModel: LoadingViewModel
+    
+    init(viewModel: LoadingViewModel = LoadingViewModel()) {
+        self.viewModel = viewModel
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Entrar")
+            List{
+                ForEach(viewModel.apiCharacters){ character in
+                    NavigationLink {
+                        //Destination
+                        //                        HeroesDetailView(hero: hero, vmHeros: viewModel)
+                    } label: {
+                        //Label
+                        CharacterView(character: character)
+                    }
+                    
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    LoadingView()
+    LoadingView(viewModel: LoadingViewModel(useCase: GetCharactersUseCaseMock()))
+        .environment(AppStateVM())
 }

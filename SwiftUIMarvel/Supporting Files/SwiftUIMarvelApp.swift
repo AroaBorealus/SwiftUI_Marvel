@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUIMarvelApp: App {
+    @State var AppState = AppStateVM()
+    
     var body: some Scene {
         WindowGroup {
             RootView()
+                .environment(AppState)
         }
     }
 }
