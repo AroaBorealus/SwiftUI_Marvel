@@ -17,7 +17,9 @@ struct RootView: View {
                     LoadingView()
                 }
             case .ready:
-                HomeView()
+                withAnimation {
+                    DetailView()
+                }
             case .error(error: let errorString):
                 withAnimation {
                     ErrorView(error: errorString)

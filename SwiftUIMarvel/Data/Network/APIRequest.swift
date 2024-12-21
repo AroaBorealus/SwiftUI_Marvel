@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftData
 
 enum HTTPMethod: String {
     case GET, POST, PUT, UPDATE, HEAD, PATCH, DELETE, OPTIONS
@@ -54,6 +55,11 @@ extension APIRequest {
 
 // MARK: - Execution
 extension APIRequest {
+    
+    func getFromSwiftData(){
+        
+    }
+    
     func perform(session: APISessionContract = APISession.shared) async throws -> Response {
         do {
             let decoder = JSONDecoder()

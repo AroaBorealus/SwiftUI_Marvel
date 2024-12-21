@@ -1,5 +1,5 @@
 //
-//  CharacterView.swift
+//  CharacterRowView.swift
 //  SwiftUIMarvel
 //
 //  Created by Aroa Miguel Garcia on 17/12/24.
@@ -7,18 +7,16 @@
 
 import SwiftUI
 
-struct CharacterView: View {
+struct CharacterRowView: View {
     var character: APICharacter
     
     var body: some View {
         ZStack{
-            AsyncImage(url: URL(string: "\(character.thumbnail.path).\(character.thumbnail.thumbnailExtension)")) { photo in
+            AsyncImage(url: URL(string: "\(character.thumbnail.path)/landscape_xlarge.\(character.thumbnail.thumbnailExtension)")) { photo in
                 photo
                     .resizable()
                     .cornerRadius(20)
                     .padding([.leading, .trailing], 20)
-                    .opacity(0.9)
-                
             } placeholder: {
                 ProgressView()
                     .progressViewStyle(CircularProgressViewStyle())
@@ -27,7 +25,7 @@ struct CharacterView: View {
             //los datos del heroe
             VStack(alignment: .leading){
                 HStack{
-                    Text(character.name)
+                    StrokeText(text: character.name, width: 1.5, color: .white)
                         .font(.title)
                         .bold()
                         .padding(.leading, 30)
@@ -56,6 +54,25 @@ struct CharacterView: View {
     }
 }
 
+//struct StrokeText: View {
+//    let text: String
+//    let width: CGFloat
+//    let color: Color
+//
+//    var body: some View {
+//        ZStack{
+//            ZStack{
+//                Text(text).offset(x:  width, y:  width)
+//                Text(text).offset(x: -width, y: -width)
+//                Text(text).offset(x: -width, y:  width)
+//                Text(text).offset(x:  width, y: -width)
+//            }
+//            .foregroundColor(color)
+//            Text(text)
+//        }
+//    }
+//}
+
 #Preview {
-    CharacterView(character: MockAPICharacter)
+    CharacterRowView(character: MockAPICharacter)
 }

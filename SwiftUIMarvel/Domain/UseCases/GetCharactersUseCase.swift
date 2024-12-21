@@ -14,7 +14,7 @@ protocol GetCharactersUseCaseContract {
 final class GetCharactersUseCase: GetCharactersUseCaseContract {
     func execute() async throws -> [APICharacter]? {
         do {
-            let response: APIResponse = try await GetCharactersAPIRequest().perform()
+            let response: APIResponseCharacter = try await GetCharactersAPIRequest().perform()
             let characters = response.data.results
             print(characters)
             return characters
@@ -35,7 +35,7 @@ final class GetCharactersUseCaseMock: GetCharactersUseCaseContract {
             
             let decoder = JSONDecoder()
             decoder.dateDecodingStrategy = .iso8601
-            let decodedResponse = try decoder.decode(APIResponse.self, from: data)
+            let decodedResponse = try decoder.decode(APIResponseCharacter.self, from: data)
             
             
             let characters = decodedResponse.data.results

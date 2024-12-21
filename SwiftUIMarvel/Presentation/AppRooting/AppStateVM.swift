@@ -11,7 +11,7 @@ import Combine
 @Observable
 final class AppStateVM{
     //publicadas
-    var status = Status.loading
+    var status = Status.ready
     var tokenJWT : String = ""
     
     

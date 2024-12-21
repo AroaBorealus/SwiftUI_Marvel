@@ -180,6 +180,206 @@
                         "url": "http://marvel.com/comics/characters/1011136/air-walker_gabriel_lan?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
                     }
                 ]
+            },
+            {
+                "id": 1011136,
+                "name": "Air-Walker (Gabriel Lan)",
+                "description": "",
+                "modified": "2024-09-24T11:11:31-0400",
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/c0/66f2d68d99dc8",
+                    "extension": "jpg"
+                },
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011136",
+                "comics": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4108",
+                            "name": "Annihilation: Silver Surfer (2006) #1"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/5589",
+                            "name": "Heroes Reborn: Iron Man (Trade Paperback)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16330",
+                            "name": "Iron Man (1996) #11"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16331",
+                            "name": "Iron Man (1996) #12"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "series": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/1078",
+                            "name": "Annihilation: Silver Surfer (2006)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/1814",
+                            "name": "Heroes Reborn: Iron Man (2006)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/13577",
+                            "name": "Iron Man (1996 - 1998)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "stories": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34082",
+                            "name": "Magical Mystery Tour",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34085",
+                            "name": "Matters of the Heart",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5925",
+                            "name": "Annihilation: Silver Surfer (2006) #1",
+                            "type": "cover"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "events": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/events",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/events/229",
+                            "name": "Annihilation"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/characters/109/air-walker?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    },
+                    {
+                        "type": "wiki",
+                        "url": "http://marvel.com/universe/Air-Walker_(Gabriel_Lan)?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    },
+                    {
+                        "type": "comiclink",
+                        "url": "http://marvel.com/comics/characters/1011136/air-walker_gabriel_lan?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    }
+                ]
+            },
+            {
+                "id": 1011136,
+                "name": "Air-Walker (Gabriel Lan)",
+                "description": "",
+                "modified": "2024-09-24T11:11:31-0400",
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/a/c0/66f2d68d99dc8",
+                    "extension": "jpg"
+                },
+                "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011136",
+                "comics": {
+                    "available": 4,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4108",
+                            "name": "Annihilation: Silver Surfer (2006) #1"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/5589",
+                            "name": "Heroes Reborn: Iron Man (Trade Paperback)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16330",
+                            "name": "Iron Man (1996) #11"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16331",
+                            "name": "Iron Man (1996) #12"
+                        }
+                    ],
+                    "returned": 4
+                },
+                "series": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/series",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/1078",
+                            "name": "Annihilation: Silver Surfer (2006)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/1814",
+                            "name": "Heroes Reborn: Iron Man (2006)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/series/13577",
+                            "name": "Iron Man (1996 - 1998)"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "stories": {
+                    "available": 3,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34082",
+                            "name": "Magical Mystery Tour",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34085",
+                            "name": "Matters of the Heart",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5925",
+                            "name": "Annihilation: Silver Surfer (2006) #1",
+                            "type": "cover"
+                        }
+                    ],
+                    "returned": 3
+                },
+                "events": {
+                    "available": 1,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/characters/1011136/events",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/events/229",
+                            "name": "Annihilation"
+                        }
+                    ],
+                    "returned": 1
+                },
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/characters/109/air-walker?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    },
+                    {
+                        "type": "wiki",
+                        "url": "http://marvel.com/universe/Air-Walker_(Gabriel_Lan)?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    },
+                    {
+                        "type": "comiclink",
+                        "url": "http://marvel.com/comics/characters/1011136/air-walker_gabriel_lan?utm_campaign=apiRef&utm_source=ec42ff12023878ab39a533cb3fcb5f44"
+                    }
+                ]
             }
         ]
     }

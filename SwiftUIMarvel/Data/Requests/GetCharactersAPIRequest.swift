@@ -8,7 +8,7 @@
 import Foundation
 
 struct GetCharactersAPIRequest: APIRequest {
-    typealias Response = APIResponse
+    typealias Response = APIResponseCharacter
     
     let method: HTTPMethod = .GET
     let path: String = "/v1/public/characters"

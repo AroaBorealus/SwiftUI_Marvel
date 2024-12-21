@@ -26,7 +26,7 @@ struct APISession: APISessionContract {
             // Construir y preparar la solicitud
             var request = try apiRequest.getRequest()
             requestInterceptors.forEach { $0.intercept(request: &request) }
-            
+            print(request.url!)
             // Realizar la solicitud asincrónica
             let (data, response) = try await session.data(for: request)
             

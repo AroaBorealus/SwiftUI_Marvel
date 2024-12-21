@@ -7,6 +7,18 @@
 
 import Foundation
 
+struct APIResponseCharacter: Decodable {
+    let code: Int?
+    let status, copyright, attributionText, attributionHTML: String?
+    let etag: String?
+    let data: APIDataCharacter
+}
+
+struct APIDataCharacter: Decodable {
+    let offset, limit, total, count: Int
+    let results: [APICharacter]
+}
+
 struct APICharacter: Identifiable, Decodable {
     let id: Int
     let name: String
@@ -65,7 +77,7 @@ let MockAPICharacter = APICharacter(id: 1009550,
                                     description: "",
                                     modified: "2024-10-21T15:32:30-0400",
                                     thumbnail: Thumbnail(
-                                        path: "http://i.annihil.us/u/prod/marvel/i/mg/c/90/4ce154e96ec1e", thumbnailExtension: "jpg"),
+                                        path: "https://i.annihil.us/u/prod/marvel/i/mg/c/90/4ce154e96ec1e", thumbnailExtension: "jpg"),
                                     resourceURI: "http://gateway.marvel.com/v1/public/characters/1009550",
                                     comics: Comics(
                                         available: 2,
