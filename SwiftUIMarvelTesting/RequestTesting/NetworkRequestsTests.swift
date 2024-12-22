@@ -2,33 +2,17 @@
 //  NetworkRequestsTests.swift
 //  KCReactiveDragonBallTests
 //
-//  Created by Aroa Miguel Garcia on 1/12/24.
+//  Created by Aroa Miguel Garcia on 22/12/24.
 //
 
-@testable import KCReactiveDragonBall
+@testable import SwiftUIMarvel
 import XCTest
 import Combine
 
 final class NetworkRequestsTests: XCTestCase {
-    func test_LoginRequest() async {
-        let credentials1 = Credentials(username: "Aroa", password: "Qwerty")
-                
-        let loginRequest = LoginAPIRequest(credentials: credentials1)
-        XCTAssertNotNil(loginRequest)
-        
-        var constructedRequest: URLRequest
-        
-        do{
-            try constructedRequest = loginRequest.getRequest()
-            print("GetRequest: \(constructedRequest)")
-        }catch{
-            XCTFail("Request not constructed properly")
-        }
-    }
-    
     func test_GetCharactersRequest() {
         
-        let characterRequest = GetCharactersAPIRequest(characterName: "Aroa")
+        let characterRequest = GetCharactersAPIRequest()
         XCTAssertNotNil(characterRequest)
         
         var constructedRequest: URLRequest
@@ -41,17 +25,32 @@ final class NetworkRequestsTests: XCTestCase {
         }
     }
     
-    func test_GetTransformationsRequest() {
-        let transformationsRequest = GetTransformationsAPIRequest(characterId: "1234")
-        XCTAssertNotNil(transformationsRequest)
+    func test_GetCharacterSeriesRequest() {
+        
+        let characterSeriesRequest = GetCharacterSeriesAPIRequest(charID: "1011136")
+        XCTAssertNotNil(characterSeriesRequest)
         
         var constructedRequest: URLRequest
         
         do{
-            try constructedRequest = transformationsRequest.getRequest()
+            try constructedRequest = characterSeriesRequest.getRequest()
             print("GetRequest: \(constructedRequest)")
         }catch{
             XCTFail("Request not constructed properly")
         }
     }
+    
+//    func test_GetTransformationsRequest() {
+//        let transformationsRequest = GetTransformationsAPIRequest(characterId: "1234")
+//        XCTAssertNotNil(transformationsRequest)
+//        
+//        var constructedRequest: URLRequest
+//        
+//        do{
+//            try constructedRequest = transformationsRequest.getRequest()
+//            print("GetRequest: \(constructedRequest)")
+//        }catch{
+//            XCTFail("Request not constructed properly")
+//        }
+//    }
 }

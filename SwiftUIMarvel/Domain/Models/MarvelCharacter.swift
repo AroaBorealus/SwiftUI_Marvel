@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class MarvelCharacter : Identifiable {
+final class MarvelCharacter : Identifiable, Encodable {
     var characterId: String
     var characterName: String
     var portrayal: String       //Description es una palabra reservada, así que ponemos un sinónimo

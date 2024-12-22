@@ -43,16 +43,19 @@ struct SeriesCarousel: View {
                     }
                 }
                 .scrollTargetLayout()
+                .id(3)
             }
             .scrollPosition(id: $scrollPosition)
             .scrollIndicators(.hidden)
             .scrollTargetBehavior(.paging)
+            .id(2)
             
             VStack {
                 Spacer()
                 dotsView
                     .padding(.bottom, 20)
             }
+            .id(1)
         }
         
     }

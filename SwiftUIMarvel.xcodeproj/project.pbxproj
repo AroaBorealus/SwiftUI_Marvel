@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D6BE22762D18CDEB00DE1A0F /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = D6BE22752D18CDEB00DE1A0F /* ViewInspector */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D6C77D042D18BB8B000798F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BE22762D18CDEB00DE1A0F /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,11 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6BE22742D18CDEB00DE1A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D6E1AE4E2D1045D3006DE784 = {
 			isa = PBXGroup;
 			children = (
 				D6E1AE592D1045D3006DE784 /* SwiftUIMarvel */,
 				D6C77D012D18BB8B000798F1 /* SwiftUIMarvelTesting */,
+				D6BE22742D18CDEB00DE1A0F /* Frameworks */,
 				D6E1AE582D1045D3006DE784 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +117,7 @@
 			);
 			name = SwiftUIMarvelTesting;
 			packageProductDependencies = (
+				D6BE22752D18CDEB00DE1A0F /* ViewInspector */,
 			);
 			productName = SwiftUIMarvelTesting;
 			productReference = D6C77D002D18BB8B000798F1 /* SwiftUIMarvelTesting.xctest */;
@@ -509,6 +523,14 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D6BE22752D18CDEB00DE1A0F /* ViewInspector */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6C77C7C2D18B8D5000798F1 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			productName = ViewInspector;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6E1AE4F2D1045D3006DE784 /* Project object */;
 }
