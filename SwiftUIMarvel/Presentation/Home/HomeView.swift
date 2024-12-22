@@ -10,9 +10,9 @@ import SwiftUI
 struct HomeView: View {
     @Environment(AppStateVM.self) var appState
     
-    @State var viewModel: HomeViewModel
+    @State var viewModel: HomeViewModelContract
     
-    init(viewModel: HomeViewModel = HomeViewModel()) {
+    init(viewModel: HomeViewModelContract = HomeViewModel()) {
         self.viewModel = viewModel
     }
     
@@ -27,14 +27,14 @@ struct HomeView: View {
                     }
                 }
             }
-            .navigationBarTitle("Characters")
-            .searchable(text:$viewModel.filterUI, prompt: "Buscar personajes")
+            .navigationBarTitle("homeNavBarTitle")
         }
     }
 }
 
 
 #Preview {
-    HomeView(viewModel: HomeViewModel(useCase: GetCharactersUseCaseMock()))
+    
+    HomeView(viewModel: HomeViewModelMock())
         .environment(AppStateVM())
 }

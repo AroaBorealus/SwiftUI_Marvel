@@ -31,3 +31,5 @@ final class MarvelCharacter : Identifiable {
         self.thumbnailExtension = APICharacter.thumbnail.thumbnailExtension
     }
 }
+
+let mockMarvelCharacter = MarvelCharacter(characterId: "idMock", characterName: "MockName", portrayal: "descriptionMock", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/a/c0/66f2d68d99dc8", thumbnailExtension: "jpg"))

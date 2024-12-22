@@ -16,28 +16,19 @@ struct DetailView: View {
     }
     
     var body: some View {
-        Text("Series")
-            .font(.largeTitle)
-        ScrollView(.horizontal) {
-            HStack(spacing: 20) {
-                ForEach(viewModel.marvelSeries){ serie in
-                    VStack {
-                        AsyncImage(url: URL(string: "\(serie.thumbnailPath)/landscape_xlarge.\(serie.thumbnailExtension)")) { photo in
-                            photo
-                                .resizable()
-                                .cornerRadius(20)
-                                .padding([.leading, .trailing], 20)
-                        } placeholder: {
-                            ProgressView()
-                                .progressViewStyle(CircularProgressViewStyle())
-                        }
-                        Text(serie.serieTitle)
-                    }
-                    .frame(width: 250, height: 350)
+        
+        switch viewModel.detailStatus{
+        case .loading:
+            DetailLoaderView()
+                .onAppear{
+                    viewModel.loadCharacter()
                 }
-            }
-        }.onAppear{
-            viewModel.loadCharacter()
+        case .ready:
+            SeriesCarousel(series: viewModel.marvelSeries)
+        case .noData:
+            DetailEmptyView()
+        case .error(error: let reason):
+            ErrorView(error: reason)
         }
     }
 }

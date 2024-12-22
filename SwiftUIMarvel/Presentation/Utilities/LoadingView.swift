@@ -23,7 +23,7 @@ struct LoadingView: View {
                     appState.status = .ready
                 }
             }
-            Image(.image)
+            Image(.background)
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()

@@ -6,11 +6,18 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		D6E1AF072D1097E2006DE784 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D6E1AF062D1097E2006DE784 /* KeychainSwift */; };
-/* End PBXBuildFile section */
+/* Begin PBXContainerItemProxy section */
+		D6C77D042D18BB8B000798F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6E1AE4F2D1045D3006DE784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6E1AE562D1045D3006DE784;
+			remoteInfo = SwiftUIMarvel;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D6C77D002D18BB8B000798F1 /* SwiftUIMarvelTesting.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIMarvelTesting.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E1AE572D1045D3006DE784 /* SwiftUIMarvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMarvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,6 +32,11 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D6C77D012D18BB8B000798F1 /* SwiftUIMarvelTesting */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUIMarvelTesting;
+			sourceTree = "<group>";
+		};
 		D6E1AE592D1045D3006DE784 /* SwiftUIMarvel */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -36,11 +48,17 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D6C77CFD2D18BB8B000798F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6E1AE542D1045D3006DE784 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6E1AF072D1097E2006DE784 /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				D6E1AE592D1045D3006DE784 /* SwiftUIMarvel */,
+				D6C77D012D18BB8B000798F1 /* SwiftUIMarvelTesting */,
 				D6E1AE582D1045D3006DE784 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				D6E1AE572D1045D3006DE784 /* SwiftUIMarvel.app */,
+				D6C77D002D18BB8B000798F1 /* SwiftUIMarvelTesting.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +86,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D6C77CFF2D18BB8B000798F1 /* SwiftUIMarvelTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6C77D062D18BB8B000798F1 /* Build configuration list for PBXNativeTarget "SwiftUIMarvelTesting" */;
+			buildPhases = (
+				D6C77CFC2D18BB8B000798F1 /* Sources */,
+				D6C77CFD2D18BB8B000798F1 /* Frameworks */,
+				D6C77CFE2D18BB8B000798F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6C77D052D18BB8B000798F1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6C77D012D18BB8B000798F1 /* SwiftUIMarvelTesting */,
+			);
+			name = SwiftUIMarvelTesting;
+			packageProductDependencies = (
+			);
+			productName = SwiftUIMarvelTesting;
+			productReference = D6C77D002D18BB8B000798F1 /* SwiftUIMarvelTesting.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		D6E1AE562D1045D3006DE784 /* SwiftUIMarvel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6E1AE662D1045D5006DE784 /* Build configuration list for PBXNativeTarget "SwiftUIMarvel" */;
@@ -83,7 +126,6 @@
 			);
 			name = SwiftUIMarvel;
 			packageProductDependencies = (
-				D6E1AF062D1097E2006DE784 /* KeychainSwift */,
 			);
 			productName = SwiftUIMarvel;
 			productReference = D6E1AE572D1045D3006DE784 /* SwiftUIMarvel.app */;
@@ -99,6 +141,11 @@
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
+					D6C77CFF2D18BB8B000798F1 = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+						TestTargetID = D6E1AE562D1045D3006DE784;
+					};
 					D6E1AE562D1045D3006DE784 = {
 						CreatedOnToolsVersion = 16.0;
 					};
@@ -115,7 +162,7 @@
 			mainGroup = D6E1AE4E2D1045D3006DE784;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				D6E1AF052D1097E2006DE784 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				D6C77C7C2D18B8D5000798F1 /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D6E1AE582D1045D3006DE784 /* Products */;
@@ -123,11 +170,19 @@
 			projectRoot = "";
 			targets = (
 				D6E1AE562D1045D3006DE784 /* SwiftUIMarvel */,
+				D6C77CFF2D18BB8B000798F1 /* SwiftUIMarvelTesting */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D6C77CFE2D18BB8B000798F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6E1AE552D1045D3006DE784 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,6 +193,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D6C77CFC2D18BB8B000798F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D6E1AE532D1045D3006DE784 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,7 +209,64 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		D6C77D052D18BB8B000798F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6E1AE562D1045D3006DE784 /* SwiftUIMarvel */;
+			targetProxy = D6C77D042D18BB8B000798F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		D6C77D072D18BB8B000798F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PFU32ZGFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.SwiftUIMarvelTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIMarvel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIMarvel";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		D6C77D082D18BB8B000798F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6PFU32ZGFM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.SwiftUIMarvelTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIMarvel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIMarvel";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		D6E1AE642D1045D5006DE784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,10 +418,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.SwiftUIMarvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
@@ -338,10 +458,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.aroaborealus.SwiftUIMarvel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
@@ -349,6 +470,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D6C77D062D18BB8B000798F1 /* Build configuration list for PBXNativeTarget "SwiftUIMarvelTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C77D072D18BB8B000798F1 /* Debug */,
+				D6C77D082D18BB8B000798F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6E1AE522D1045D3006DE784 /* Build configuration list for PBXProject "SwiftUIMarvel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -370,23 +500,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D6E1AF052D1097E2006DE784 /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+		D6C77C7C2D18B8D5000798F1 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			repositoryURL = "https://github.com/nalexn/ViewInspector";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 24.0.0;
+				minimumVersion = 0.10.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		D6E1AF062D1097E2006DE784 /* KeychainSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D6E1AF052D1097E2006DE784 /* XCRemoteSwiftPackageReference "keychain-swift" */;
-			productName = KeychainSwift;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D6E1AE4F2D1045D3006DE784 /* Project object */;
 }

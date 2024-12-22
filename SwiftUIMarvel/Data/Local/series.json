@@ -4,1295 +4,638 @@
     "copyright": "© 2024 MARVEL",
     "attributionText": "Data provided by Marvel. © 2024 MARVEL",
     "attributionHTML": "<a href=\"http://marvel.com\">Data provided by Marvel. © 2024 MARVEL</a>",
-    "etag": "d663178b9db8a10a8ca7fc9c423754aabc447fbe",
+    "etag": "d78ac518d0fbd40db04f7ae62660778aff043965",
     "data": {
         "offset": 0,
         "limit": 20,
-        "total": 15328,
-        "count": 20,
+        "total": 3,
+        "count": 3,
         "results": [
             {
-                "id": 37787,
-                "title": "STAR WARS: INQUISITORS (2024)",
+                "id": 13577,
+                "title": "Iron Man (1996 - 1998)",
                 "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/37787",
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/13577",
                 "urls": [
                     {
                         "type": "detail",
-                        "url": "http://marvel.com/comics/series/37787/star_wars_inquisitors_2024?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
+                        "url": "http://marvel.com/comics/series/13577/iron_man_1996_-_1998?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
                     }
                 ],
-                "startYear": 2024,
-                "endYear": 2024,
+                "startYear": 1996,
+                "endYear": 1998,
                 "rating": "",
+                "type": "",
+                "modified": "2013-12-30T16:33:45-0500",
+                "thumbnail": {
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/30/52c1e67d0a952",
+                    "extension": "jpg"
+                },
+                "creators": {
+                    "available": 27,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/13577/creators",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1337",
+                            "name": "Ed Benes",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1338",
+                            "name": "Ryan Benjamin",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12859",
+                            "name": "Mike Miller",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10824",
+                            "name": "Whilce Portacio",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/444",
+                            "name": "Tom Raney",
+                            "role": "penciler"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4469",
+                            "name": "Richard Bennett",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5287",
+                            "name": "Saleem Crawford",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/359",
+                            "name": "John Dell",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/8052",
+                            "name": "Armando Durruthy",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13243",
+                            "name": "Richard Friend",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4106",
+                            "name": "Sandra Hope",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14707",
+                            "name": "Thomas Mcweeney",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/461",
+                            "name": "Norm Rapmund",
+                            "role": "inker"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1941",
+                            "name": "Joe Chiodo",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4107",
+                            "name": "Wildstorm FX",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4346",
+                            "name": "Martin Jimenez",
+                            "role": "colorist"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/3603",
+                            "name": "Albert Deschesne",
+                            "role": "letterer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/96",
+                            "name": "Jim Lee",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/3637",
+                            "name": "Scott Lobdell",
+                            "role": "writer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/18",
+                            "name": "Jeph Loeb",
+                            "role": "writer"
+                        }
+                    ],
+                    "returned": 20
+                },
+                "characters": {
+                    "available": 33,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/13577/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011136",
+                            "name": "Air-Walker (Gabriel Lan)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009154",
+                            "name": "Annihilus"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                            "name": "Captain America"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009251",
+                            "name": "Crimson Dynamo"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009275",
+                            "name": "Doc Samson"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009305",
+                            "name": "Firelord"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009312",
+                            "name": "Galactus"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009324",
+                            "name": "Gorgon"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011490",
+                            "name": "Hank Pym"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010351",
+                            "name": "Hellcat (Patsy Walker)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+                            "name": "Hulk"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009356",
+                            "name": "Human Torch"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009366",
+                            "name": "Invisible Woman"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                            "name": "Iron Man"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009597",
+                            "name": "Jasper Sitwell"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+                            "name": "Loki"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009421",
+                            "name": "Mandarin"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009459",
+                            "name": "Mr. Fantastic"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                            "name": "Nick Fury"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009483",
+                            "name": "Onslaught"
+                        }
+                    ],
+                    "returned": 20
+                },
+                "stories": {
+                    "available": 42,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/13577/stories",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34075",
+                            "name": "Cover #34075",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34076",
+                            "name": "Heart of the Matter",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273813",
+                            "name": "story from Iron Man (1996) #1",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34077",
+                            "name": "Cover #34077",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34078",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34079",
+                            "name": "Dead Man Walking",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273828",
+                            "name": "story from Iron Man (1996) #10",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34080",
+                            "name": "Cover #34080",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34081",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34082",
+                            "name": "Magical Mystery Tour",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273829",
+                            "name": "story from Iron Man (1996) #11",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34083",
+                            "name": "Heroes Reunited Part 3 of 4",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34084",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34085",
+                            "name": "Matters of the Heart",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273830",
+                            "name": "story from Iron Man (1996) #12",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34086",
+                            "name": "World War 3: Part 3 of 4",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34087",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34088",
+                            "name": "World War 3 Part 3: No Time to Mourn!",
+                            "type": "interiorStory"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34089",
+                            "name": "Cover #34089",
+                            "type": "cover"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34090",
+                            "name": "Hulk Smash!",
+                            "type": "interiorStory"
+                        }
+                    ],
+                    "returned": 20
+                },
+                "comics": {
+                    "available": 12,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/13577/comics",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16328",
+                            "name": "Iron Man (1996) #1"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16333",
+                            "name": "Iron Man (1996) #2"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16334",
+                            "name": "Iron Man (1996) #3"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16335",
+                            "name": "Iron Man (1996) #4"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16336",
+                            "name": "Iron Man (1996) #5"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16337",
+                            "name": "Iron Man (1996) #6"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16338",
+                            "name": "Iron Man (1996) #7"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16339",
+                            "name": "Iron Man (1996) #8"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16340",
+                            "name": "Iron Man (1996) #9"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16329",
+                            "name": "Iron Man (1996) #10"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16330",
+                            "name": "Iron Man (1996) #11"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/16331",
+                            "name": "Iron Man (1996) #12"
+                        }
+                    ],
+                    "returned": 12
+                },
+                "events": {
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/13577/events",
+                    "items": [],
+                    "returned": 0
+                },
+                "next": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2572",
+                    "name": "Iron Man (1998 - 2004)"
+                },
+                "previous": {
+                    "resourceURI": "http://gateway.marvel.com/v1/public/series/2029",
+                    "name": "Iron Man (1968 - 1996)"
+                }
+            },
+            {
+                "id": 1814,
+                "title": "Heroes Reborn: Iron Man (2006)",
+                "description": null,
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/1814",
+                "urls": [
+                    {
+                        "type": "detail",
+                        "url": "http://marvel.com/comics/series/1814/heroes_reborn_iron_man_2006?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
+                    }
+                ],
+                "startYear": 2006,
+                "endYear": 2006,
+                "rating": "RATED A",
                 "type": "collection",
-                "modified": "2024-12-19T16:42:24-0500",
+                "modified": "-0001-11-30T00:00:00-0500",
                 "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/c0/4bc35207949fe",
                     "extension": "jpg"
                 },
                 "creators": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/37787/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
-                            "name": "Jeff Youngquist",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 1
+                    "available": 0,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1814/creators",
+                    "items": [],
+                    "returned": 0
                 },
                 "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/37787/characters",
-                    "items": [],
-                    "returned": 0
+                    "available": 29,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1814/characters",
+                    "items": [
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011136",
+                            "name": "Air-Walker (Gabriel Lan)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009220",
+                            "name": "Captain America"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009251",
+                            "name": "Crimson Dynamo"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009275",
+                            "name": "Doc Samson"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009305",
+                            "name": "Firelord"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009312",
+                            "name": "Galactus"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010351",
+                            "name": "Hellcat (Patsy Walker)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009351",
+                            "name": "Hulk"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009356",
+                            "name": "Human Torch"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009366",
+                            "name": "Invisible Woman"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009368",
+                            "name": "Iron Man"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009597",
+                            "name": "Jasper Sitwell"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009407",
+                            "name": "Loki"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009421",
+                            "name": "Mandarin"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009459",
+                            "name": "Mr. Fantastic"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009471",
+                            "name": "Nick Fury"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009483",
+                            "name": "Onslaught"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009562",
+                            "name": "Scarlet Witch"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009583",
+                            "name": "She-Hulk (Jennifer Walters)"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010791",
+                            "name": "Sub-Mariner"
+                        }
+                    ],
+                    "returned": 20
                 },
                 "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/37787/stories",
+                    "available": 29,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1814/stories",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/242069",
-                            "name": "cover from STAR WARS: INQUISITORS VOL. 1 TPB (2029) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34075",
+                            "name": "Cover #34075",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/242070",
-                            "name": "story from STAR WARS: INQUISITORS VOL. 1 TPB (2029) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34076",
+                            "name": "Heart of the Matter",
                             "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/37787/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/110470",
-                            "name": "STAR WARS: INQUISITORS (Trade Paperback)"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/37787/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 39741,
-                "title": "Star Wars: Battle of Jakku - Last Stand (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/39741",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/39741/star_wars_battle_of_jakku_-_last_stand_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "",
-                "modified": "2024-12-19T11:39:22-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/6/a0/67644c274b1fe",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 9,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39741/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12604",
-                            "name": "Jim Campbell",
-                            "role": "colorist"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
-                            "name": "Vc Joe Caramagna",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13161",
-                            "name": "E.M. Gist",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/942",
-                            "name": "Mike Hawthorne",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9364",
-                            "name": "Rod Reis",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/820",
-                            "name": "Leonard Kirk",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14167",
-                            "name": "Jethro Morales",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
-                            "name": "Mark Paniccia",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14301",
-                            "name": "Alex Segura",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 9
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39741/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 20,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39741/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254714",
-                            "name": "cover from Star Wars: Battle of Jakku Part III (2024) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34077",
+                            "name": "Cover #34077",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254715",
-                            "name": "story from Star Wars: Battle of Jakku Part III (2024) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34078",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34079",
+                            "name": "Dead Man Walking",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254716",
-                            "name": "cover from Star Wars: Battle of Jakku Part III (2024) #2",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34080",
+                            "name": "Cover #34080",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254717",
-                            "name": "story from Star Wars: Battle of Jakku Part III (2024) #2",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34081",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34082",
+                            "name": "Magical Mystery Tour",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254718",
-                            "name": "cover from Star Wars: Battle of Jakku Part III (2024) #3",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34083",
+                            "name": "Heroes Reunited Part 3 of 4",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254719",
-                            "name": "story from Star Wars: Battle of Jakku Part III (2024) #3",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34084",
+                            "name": "Previously in Iron Man",
+                            "type": "recap"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34085",
+                            "name": "Matters of the Heart",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254720",
-                            "name": "cover from Star Wars: Battle of Jakku Part III (2024) #4",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34089",
+                            "name": "Cover #34089",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/254721",
-                            "name": "story from Star Wars: Battle of Jakku Part III (2024) #4",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34090",
+                            "name": "Hulk Smash!",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270214",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34091",
+                            "name": "Cover #34091",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270215",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34092",
+                            "name": "Misperceptions",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270216",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34093",
+                            "name": "Cover #34093",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270217",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34094",
+                            "name": "Bring Me the Head of the Hulk!",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276407",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #11",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34095",
+                            "name": "Cover #34095",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276408",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #11",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34096",
+                            "name": "Inherit the Whirlwind",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276409",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #11",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/34097",
+                            "name": "Industrial Revolution Part Two",
                             "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276410",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #11",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276411",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #12",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276412",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #12",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276413",
-                            "name": "cover from Star Wars: Battle of Jakku - Last Stand (2024) #12",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276414",
-                            "name": "story from Star Wars: Battle of Jakku - Last Stand (2024) #12",
-                            "type": "interiorStory"
                         }
                     ],
                     "returned": 20
                 },
                 "comics": {
-                    "available": 10,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39741/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/116745",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125940",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125941",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124471",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124472",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/116746",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125942",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125943",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/116747",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #3"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/116748",
-                            "name": "Star Wars: Battle of Jakku - Last Stand (2024) #4"
-                        }
-                    ],
-                    "returned": 10
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39741/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42320,
-                "title": "Sabretooth: The Dead Don't Talk (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42320",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42320/sabretooth_the_dead_dont_talk_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "",
-                "modified": "2024-12-19T11:35:47-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/20/67644b4ff0974",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 18,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42320/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13201",
-                            "name": "Juan Fernandez",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12997",
-                            "name": "Marcelo Maiolo",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4306",
-                            "name": "Laura Martin",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11487",
-                            "name": "Arif Prianto",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14265",
-                            "name": "Alex Sinclair",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1026",
-                            "name": "Tyler Kirkham",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14166",
-                            "name": "Rafael De Latorre",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14412",
-                            "name": "Michael Sta. Maria",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2879",
-                            "name": "Adam Kubert",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/17",
-                            "name": "Frank Miller",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14555",
-                            "name": "Davide Paratore",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1372",
-                            "name": "Mico Suayan",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14661",
-                            "name": "Fabrizio De Tommaso",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
-                            "name": "Emily Newcomen",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
-                            "name": "Mark Paniccia",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
-                            "name": "Vc Joe Sabino",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13005",
-                            "name": "Dono Sanchez-Almara",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/91",
-                            "name": "Frank Tieri",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 18
-                },
-                "characters": {
                     "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42320/characters",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1814/comics",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009554",
-                            "name": "Sabretooth"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "stories": {
-                    "available": 24,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42320/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263953",
-                            "name": "cover from Sabretooth: Origin (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263954",
-                            "name": "story from Sabretooth: Origin (2024) #1",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263955",
-                            "name": "cover from Sabretooth: Origin (2024) #2",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263956",
-                            "name": "story from Sabretooth: Origin (2024) #2",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263957",
-                            "name": "cover from Sabretooth: Origin (2024) #3",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263958",
-                            "name": "story from Sabretooth: Origin (2024) #3",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263959",
-                            "name": "cover from Sabretooth: Origin (2024) #4",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/263960",
-                            "name": "story from Sabretooth: Origin (2024) #4",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265989",
-                            "name": "cover from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265990",
-                            "name": "story from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265991",
-                            "name": "cover from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265992",
-                            "name": "story from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/267827",
-                            "name": "cover from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/267828",
-                            "name": "story from Sabretooth: Origin (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270181",
-                            "name": "cover from Sabretooth: The Dead Don't Talk (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270182",
-                            "name": "story from Sabretooth: The Dead Don't Talk (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270183",
-                            "name": "cover from Sabretooth: The Dead Don't Talk (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270184",
-                            "name": "story from Sabretooth: The Dead Don't Talk (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/274008",
-                            "name": "cover from Sabretooth: The Dead Don't Talk (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/274009",
-                            "name": "story from Sabretooth: The Dead Don't Talk (2024) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 20
-                },
-                "comics": {
-                    "available": 9,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42320/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121362",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/122379",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/122380",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123298",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124455",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124456",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121363",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121364",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #3"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121365",
-                            "name": "Sabretooth: The Dead Don't Talk (2024) #4"
-                        }
-                    ],
-                    "returned": 9
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42320/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 41789,
-                "title": "Hellhunters (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/41789",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/41789/hellhunters_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "",
-                "modified": "2024-12-19T11:32:48-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/4/80/67644a2f8e877",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 11,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41789/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14669",
-                            "name": "Chris Allen",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9799",
-                            "name": "David Baldeon",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14111",
-                            "name": "Taurin Clarke",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13879",
-                            "name": "Jonas Scharf",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13645",
-                            "name": "Alex Gomes",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13040",
-                            "name": "Adam Gorham",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13750",
-                            "name": "Phillip Kennedy Johnson",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
-                            "name": "Vc Travis Lanham",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4991",
-                            "name": "Frank Martin",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
-                            "name": "Emily Newcomen",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14311",
-                            "name": "Jordan White",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 11
-                },
-                "characters": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41789/characters",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010363",
-                            "name": "Logan"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "stories": {
-                    "available": 24,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41789/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261149",
-                            "name": "cover from Ghost Rider '44 (2029) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261150",
-                            "name": "story from Ghost Rider '44 (2029) #1",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261151",
-                            "name": "cover from Ghost Rider '44 (2029) #2",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261152",
-                            "name": "story from Ghost Rider '44 (2029) #2",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261153",
-                            "name": "cover from Ghost Rider '44 (2029) #3",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261154",
-                            "name": "story from Ghost Rider '44 (2029) #3",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261155",
-                            "name": "cover from Ghost Rider '44 (2029) #4",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261156",
-                            "name": "story from Ghost Rider '44 (2029) #4",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268129",
-                            "name": "cover from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268130",
-                            "name": "story from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268131",
-                            "name": "cover from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268132",
-                            "name": "story from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268133",
-                            "name": "cover from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268134",
-                            "name": "story from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268135",
-                            "name": "cover from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268136",
-                            "name": "story from Hellhunters (2029) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273759",
-                            "name": "cover from Hellhunters (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273760",
-                            "name": "story from Hellhunters (2024) #1",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273761",
-                            "name": "cover from Hellhunters (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/273762",
-                            "name": "story from Hellhunters (2024) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 20
-                },
-                "comics": {
-                    "available": 9,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41789/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/119961",
-                            "name": "Hellhunters (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123449",
-                            "name": "Hellhunters (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123450",
-                            "name": "Hellhunters (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123451",
-                            "name": "Hellhunters (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123452",
-                            "name": "Hellhunters (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/126389",
-                            "name": "Hellhunters (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/119962",
-                            "name": "Hellhunters (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/119963",
-                            "name": "Hellhunters (2024) #3"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/119964",
-                            "name": "Hellhunters (2024) #4"
-                        }
-                    ],
-                    "returned": 9
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41789/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 41693,
-                "title": "Spirits of Vengeance (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/41693",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/41693/spirits_of_vengeance_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "T+",
-                "type": "",
-                "modified": "2024-12-19T09:47:50-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 24,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41693/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/87",
-                            "name": "Mark Bagley",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13748",
-                            "name": "Josemaria Casanovas",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14175",
-                            "name": "Sergio Davila",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14329",
-                            "name": "kunkka",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14359",
-                            "name": "Justin Mason",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13180",
-                            "name": "Federico Blee",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13250",
-                            "name": "Romulo Fajardo Jr.",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14571",
-                            "name": "Christopher Campana",
-                            "role": "penciler"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14162",
-                            "name": "Sean Hill",
-                            "role": "penciler"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13945",
-                            "name": "Derrick Chew",
-                            "role": "painter (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13161",
-                            "name": "E.M. Gist",
-                            "role": "painter (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11465",
-                            "name": "Andrew Dalhouse",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9224",
-                            "name": "Paul Davidson",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/616",
-                            "name": "Jay Leisten",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12918",
-                            "name": "Brian Level",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14587",
-                            "name": "Devmalya Pramanik",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12993",
-                            "name": "Vc Travis Lanham",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12457",
-                            "name": "Edward Devin Lewis",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
-                            "name": "Emily Newcomen",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14408",
-                            "name": "Sabir Pirzada",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 20
-                },
-                "characters": {
-                    "available": 3,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41693/characters",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010925",
-                            "name": "Ghost Rider (Daniel Ketch)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009318",
-                            "name": "Ghost Rider (Johnny Blaze)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017833",
-                            "name": "Ghost Rider (Robbie Reyes)"
-                        }
-                    ],
-                    "returned": 3
-                },
-                "stories": {
-                    "available": 46,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41693/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259076",
-                            "name": "cover from Spirits of Vengeance (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259077",
-                            "name": "story from Spirits of Vengeance (2024) #1",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259078",
-                            "name": "cover from Spirits of Vengeance (2024) #2",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259079",
-                            "name": "story from Spirits of Vengeance (2024) #2",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259080",
-                            "name": "cover from Spirits of Vengeance (2024) #3",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259081",
-                            "name": "story from Spirits of Vengeance (2024) #3",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259082",
-                            "name": "cover from Spirits of Vengeance (2024) #4",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259083",
-                            "name": "story from Spirits of Vengeance (2024) #4",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259084",
-                            "name": "cover from Spirits of Vengeance (2024) #5",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/259085",
-                            "name": "story from Spirits of Vengeance (2024) #5",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264187",
-                            "name": "cover from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264188",
-                            "name": "story from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264189",
-                            "name": "cover from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264190",
-                            "name": "story from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264191",
-                            "name": "cover from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264192",
-                            "name": "story from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264193",
-                            "name": "cover from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264194",
-                            "name": "story from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264195",
-                            "name": "cover from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264196",
-                            "name": "story from Spirits of Vengeance (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 20
-                },
-                "comics": {
-                    "available": 16,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41693/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/118926",
-                            "name": "Spirits of Vengeance (2024) #1"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121479",
-                            "name": "Spirits of Vengeance (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121480",
-                            "name": "Spirits of Vengeance (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121481",
-                            "name": "Spirits of Vengeance (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121482",
-                            "name": "Spirits of Vengeance (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121483",
-                            "name": "Spirits of Vengeance (2024) #1 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/118927",
-                            "name": "Spirits of Vengeance (2024) #2"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/122499",
-                            "name": "Spirits of Vengeance (2024) #2 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/122500",
-                            "name": "Spirits of Vengeance (2024) #2 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/118928",
-                            "name": "Spirits of Vengeance (2024) #3"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123506",
-                            "name": "Spirits of Vengeance (2024) #3 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125561",
-                            "name": "Spirits of Vengeance (2024) #3 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/118929",
-                            "name": "Spirits of Vengeance (2024) #4"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124468",
-                            "name": "Spirits of Vengeance (2024) #4 (Variant)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/118930",
-                            "name": "Spirits of Vengeance (2024) #5"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123950",
-                            "name": "Spirits of Vengeance (2024) #6"
-                        }
-                    ],
-                    "returned": 16
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41693/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42758,
-                "title": "X-MANHUNT OMEGA (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42758",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42758/x-manhunt_omega_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:42:16-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 6,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42758/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14370",
-                            "name": "Murewa Ayodele",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/519",
-                            "name": "Gail Simone",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2133",
-                            "name": "Tom Brevoort",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/10172",
-                            "name": "Vc Clayton Cowles",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/774",
-                            "name": "Morry Hollowell",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14667",
-                            "name": "Gleb Melnikov",
-                            "role": "penciler (cover)"
-                        }
-                    ],
-                    "returned": 6
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42758/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42758/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268041",
-                            "name": "cover from X-Man Hunt Omega (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268042",
-                            "name": "story from X-Man Hunt Omega (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42758/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123405",
-                            "name": "X-MANHUNT OMEGA (2025) #1"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/5589",
+                            "name": "Heroes Reborn: Iron Man (Trade Paperback)"
                         }
                     ],
                     "returned": 1
                 },
                 "events": {
                     "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42758/events",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1814/events",
                     "items": [],
                     "returned": 0
                 },
@@ -1300,1138 +643,144 @@
                 "previous": null
             },
             {
-                "id": 43622,
-                "title": "POOLUMINATI (2025 - Present)",
+                "id": 1078,
+                "title": "Annihilation: Silver Surfer (2006)",
                 "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43622",
+                "resourceURI": "http://gateway.marvel.com/v1/public/series/1078",
                 "urls": [
                     {
                         "type": "detail",
-                        "url": "http://marvel.com/comics/series/43622/pooluminati_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
+                        "url": "http://marvel.com/comics/series/1078/annihilation_silver_surfer_2006?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
                     }
                 ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:41:38-0500",
+                "startYear": 2006,
+                "endYear": 2006,
+                "rating": "T",
+                "type": "limited",
+                "modified": "-0001-11-30T00:00:00-0500",
                 "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 7,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43622/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14183",
-                            "name": "Enid Balam",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
-                            "name": "Mark Basso",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13054",
-                            "name": "Zac Gorman",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14751",
-                            "name": "Alexis Quasarano",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/935",
-                            "name": "Todd Nauck",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
-                            "name": "Rachelle Rosenberg",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
-                            "name": "Vc Joe Sabino",
-                            "role": "letterer"
-                        }
-                    ],
-                    "returned": 7
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43622/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43622/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276081",
-                            "name": "cover from Pooluminati (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276082",
-                            "name": "story from Pooluminati (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43622/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/126765",
-                            "name": "POOLUMINATI (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43622/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43485,
-                "title": "MARVEL FANFARE FACSIMILE EDITION (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43485",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43485/marvel_fanfare_facsimile_edition_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:40:54-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 7,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43485/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/3389",
-                            "name": "Ian Akin",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/3390",
-                            "name": "Brian Garvey",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11419",
-                            "name": "Barry Windsor-Smith",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1196",
-                            "name": "Roger Mckenzie",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/399",
-                            "name": "Jim Novak",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1872",
-                            "name": "Glynis Oliver",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
-                            "name": "Jeff Youngquist",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 7
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43485/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43485/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/274654",
-                            "name": "cover from Marvel Fanfare #15 Facsimile Edition (2025) #15",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/274655",
-                            "name": "story from Marvel Fanfare #15 Facsimile Edition (2025) #15",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43485/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/126159",
-                            "name": "MARVEL FANFARE FACSIMILE EDITION (2025) #15"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43485/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43646,
-                "title": "DEADPOOL VS. WOLVERINE: SLASH 'EM UP (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43646",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43646/deadpool_vs_wolverine_slash_em_up_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:40:00-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/1/10/4bad4aab0d2d3",
                     "extension": "jpg"
                 },
                 "creators": {
                     "available": 3,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43646/creators",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1078/creators",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12313",
-                            "name": "Mark Basso",
-                            "role": "editor"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/937",
+                            "name": "Renato Arlem",
+                            "role": "inker"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/658",
-                            "name": "Ron Lim",
-                            "role": "penciler (cover)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/529",
+                            "name": "June Chung",
+                            "role": "colorist"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13052",
-                            "name": "Israel Silva",
-                            "role": "colorist (cover)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12980",
+                            "name": "Vc Cory Petit",
+                            "role": "letterer"
                         }
                     ],
                     "returned": 3
                 },
                 "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43646/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43646/stories",
+                    "available": 12,
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1078/characters",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276241",
-                            "name": "cover from Deadpool Vs. Wolverine: Slash 'Em Up (2025) #1",
-                            "type": "cover"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011136",
+                            "name": "Air-Walker (Gabriel Lan)"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/276242",
-                            "name": "story from Deadpool Vs. Wolverine: Slash 'Em Up (2025) #1",
-                            "type": "interiorStory"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009154",
+                            "name": "Annihilus"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009305",
+                            "name": "Firelord"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011177",
+                            "name": "Forgotten One"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009312",
+                            "name": "Galactus"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011154",
+                            "name": "Ravenous"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011155",
+                            "name": "Red Shift"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009592",
+                            "name": "Silver Surfer"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011157",
+                            "name": "Skreet"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1010764",
+                            "name": "Stardust"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011162",
+                            "name": "Tenebrous"
+                        },
+                        {
+                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009652",
+                            "name": "Thanos"
                         }
                     ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43646/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/126845",
-                            "name": "DEADPOOL VS. WOLVERINE: SLASH 'EM UP (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43646/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43424,
-                "title": "GODZILLA VS. FANTASTIC FOUR (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43424",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43424/godzilla_vs_fantastic_four_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:39:10-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 6,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43424/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/362",
-                            "name": "Scott Hanna",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/774",
-                            "name": "Morry Hollowell",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2879",
-                            "name": "Adam Kubert",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12465",
-                            "name": "Ryan North",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
-                            "name": "Mark Paniccia",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13196",
-                            "name": "John Romita Jr.",
-                            "role": "penciler"
-                        }
-                    ],
-                    "returned": 6
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43424/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43424/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/272914",
-                            "name": "cover from Big Lizard Vs. Fantastic Four (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/272915",
-                            "name": "story from Big Lizard Vs. Fantastic Four (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43424/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125646",
-                            "name": "GODZILLA VS. FANTASTIC FOUR (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43424/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42379,
-                "title": "FANTASTIC FOUR FACSIMILE EDITION (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42379",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42379/fantastic_four_facsimile_edition_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:38:30-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 5,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42379/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1089",
-                            "name": "Sol Brodsky",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/196",
-                            "name": "Jack Kirby",
-                            "role": "penciler"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/30",
-                            "name": "Stan Lee",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13093",
-                            "name": "Art Simek",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
-                            "name": "Jeff Youngquist",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 5
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42379/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42379/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264973",
-                            "name": "cover from Fantastic Four #3 Facsimile Edition (2025) #3",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/264974",
-                            "name": "story from Fantastic Four #3 Facsimile Edition (2025) #3",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42379/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121872",
-                            "name": "FANTASTIC FOUR FACSIMILE EDITION (2025) #3"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42379/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42399,
-                "title": "X-MEN FACSIMILE EDITION (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42399",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42399/x-men_facsimile_edition_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:37:38-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 6,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42399/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14030",
-                            "name": "Terry Austin",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1827",
-                            "name": "John Byrne",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/44",
-                            "name": "Chris Claremont",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1872",
-                            "name": "Glynis Oliver",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/791",
-                            "name": "Tom Orzechowski",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4430",
-                            "name": "Jeff Youngquist",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 6
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42399/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42399/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265038",
-                            "name": "cover from X-Men [1963] #133 Facsimile Edition (2025) #133",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265039",
-                            "name": "story from X-Men [1963] #133 Facsimile Edition (2025) #133",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42399/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/121904",
-                            "name": "X-MEN FACSIMILE EDITION (2025) #133"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42399/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43226,
-                "title": "NICK FURY VS. FIN FANG FOOM (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43226",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43226/nick_fury_vs_fin_fang_foom_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:35:17-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 7,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43226/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
-                            "name": "Vc Joe Caramagna",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/9998",
-                            "name": "Elena Casagrande",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13558",
-                            "name": "Juan Ferreyra",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/308",
-                            "name": "Gary Frank",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12376",
-                            "name": "Wilson Moss",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14265",
-                            "name": "Alex Sinclair",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4",
-                            "name": "J. Michael Straczynski",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 7
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43226/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43226/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/271427",
-                            "name": "cover from Nick Fury Vs. Fin Fang Foom by JMS (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/271428",
-                            "name": "story from Nick Fury Vs. Fin Fang Foom by JMS (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43226/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125073",
-                            "name": "NICK FURY VS. FIN FANG FOOM (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43226/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42476,
-                "title": "SPIDER-MAN: HOMEROOM HEROES #3 [BUNDLES OF 5] (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42476",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42476/spider-man_homeroom_heroes_3_bundles_of_5_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-10-23T14:25:12-0400",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 3,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42476/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14038",
-                            "name": "Lauren Bisom",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12604",
-                            "name": "Jim Campbell",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13533",
-                            "name": "Arianna Florean",
-                            "role": "penciler (cover)"
-                        }
-                    ],
-                    "returned": 3
-                },
-                "characters": {
-                    "available": 3,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42476/characters",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1017575",
-                            "name": "Captain America (Sam Wilson)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1011360",
-                            "name": "Red Hulk"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/characters/1009610",
-                            "name": "Spider-Man (Peter Parker)"
-                        }
-                    ],
-                    "returned": 3
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42476/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265691",
-                            "name": "cover from Spider-Man: Classroom Heroes (2025) #3",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/265692",
-                            "name": "story from Spider-Man: Classroom Heroes (2025) #3",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42476/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/122230",
-                            "name": "SPIDER-MAN: HOMEROOM HEROES #3 [BUNDLES OF 5] (2025) #3"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42476/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43354,
-                "title": "WEB OF SPIDER-VERSE: NEW BLOOD (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43354",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43354/web_of_spider-verse_new_blood_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:30:31-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 9,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43354/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
-                            "name": "Vc Joe Caramagna",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12581",
-                            "name": "Chris Eliopoulos",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14054",
-                            "name": "Matthew Groom",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/536",
-                            "name": "Greg Pak",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14553",
-                            "name": "Sumit Kumar",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12644",
-                            "name": "Alan Robinson",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13703",
-                            "name": "Federico Vicentini",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11961",
-                            "name": "Luciano Vecchio",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14311",
-                            "name": "Jordan White",
-                            "role": "editor"
-                        }
-                    ],
-                    "returned": 9
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43354/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43354/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/271891",
-                            "name": "cover from Spider-Verse: TBD (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/271892",
-                            "name": "story from Spider-Verse: TBD (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43354/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125305",
-                            "name": "WEB OF SPIDER-VERSE: NEW BLOOD (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43354/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 41797,
-                "title": "MARVEL & DISNEY: WHAT IF...? MICKEY & FRIENDS BECAME THE AVENGERS (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/41797",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/41797/marvel_disney_what_if._mickey_friends_became_the_avengers_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-19T09:29:21-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 5,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41797/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14658",
-                            "name": "Luca Barbieri",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4064",
-                            "name": "Steve Behling",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14657",
-                            "name": "Edizioni Bd",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4600",
-                            "name": "Mark Paniccia",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14662",
-                            "name": "Alessandro Pastrovicchio",
-                            "role": "penciler (cover)"
-                        }
-                    ],
-                    "returned": 5
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41797/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41797/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261215",
-                            "name": "cover from What If…? Mickey & Friends Became the Avengers (2024) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/261216",
-                            "name": "story from What If…? Mickey & Friends Became the Avengers (2024) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41797/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/119994",
-                            "name": "MARVEL & DISNEY: WHAT IF...? MICKEY & FRIENDS BECAME THE AVENGERS (2024) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/41797/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43013,
-                "title": "KIDPOOL/SPIDER-BOY (2024)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43013",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43013/kidpoolspider-boy_2024?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2024,
-                "rating": "",
-                "type": "one shot",
-                "modified": "2024-12-17T12:51:41-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 11,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43013/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14571",
-                            "name": "Christopher Campana",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/72",
-                            "name": "Humberto Ramos",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/5251",
-                            "name": "Vc Joe Caramagna",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11465",
-                            "name": "Andrew Dalhouse",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/430",
-                            "name": "Edgar Delgado",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12991",
-                            "name": "Rachelle Rosenberg",
-                            "role": "colorist (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/4300",
-                            "name": "Nick Lowe",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
-                            "name": "Emily Newcomen",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/208",
-                            "name": "Paco Medina",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/935",
-                            "name": "Todd Nauck",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/11539",
-                            "name": "Christopher Yost",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 11
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43013/characters",
-                    "items": [],
-                    "returned": 0
+                    "returned": 12
                 },
                 "stories": {
                     "available": 8,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43013/stories",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1078/stories",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270033",
-                            "name": "cover from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5925",
+                            "name": "Annihilation: Silver Surfer (2006) #1",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270034",
-                            "name": "story from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5926",
+                            "name": "Annihilation: Silver Surfer (2006) #1",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270035",
-                            "name": "cover from Kidpool/Spider-Boy (2024) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5927",
+                            "name": "Annihilation: Silver Surfer (2006) #2",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270036",
-                            "name": "story from Kidpool/Spider-Boy (2024) #1",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5928",
+                            "name": "Annihilation: Silver Surfer (2006) #2",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270037",
-                            "name": "cover from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5929",
+                            "name": "Annihilation: Silver Surfer (2006) #3",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270038",
-                            "name": "story from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5930",
+                            "name": "Annihilation: Silver Surfer (2006) #3",
                             "type": "interiorStory"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270039",
-                            "name": "cover from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5931",
+                            "name": "Annihilation: Silver Surfer (2006) #4",
                             "type": "cover"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/270040",
-                            "name": "story from Kidpool/Spider-Boy (2024) #1 (VARIANT)",
+                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/5932",
+                            "name": "Annihilation: Silver Surfer (2006) #4",
                             "type": "interiorStory"
                         }
                     ],
@@ -2439,332 +788,37 @@
                 },
                 "comics": {
                     "available": 4,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43013/comics",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1078/comics",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124389",
-                            "name": "KIDPOOL/SPIDER-BOY (2024) #1"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4108",
+                            "name": "Annihilation: Silver Surfer (2006) #1"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124390",
-                            "name": "KIDPOOL/SPIDER-BOY (2024) #1 (Variant)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4218",
+                            "name": "Annihilation: Silver Surfer (2006) #2"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124391",
-                            "name": "KIDPOOL/SPIDER-BOY (2024) #1 (Variant)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4315",
+                            "name": "Annihilation: Silver Surfer (2006) #3"
                         },
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/124388",
-                            "name": "KIDPOOL/SPIDER-BOY (2024) #1 (Variant)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/4470",
+                            "name": "Annihilation: Silver Surfer (2006) #4"
                         }
                     ],
                     "returned": 4
                 },
                 "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43013/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 39330,
-                "title": "MARVEL SUPER HEROES SECRET WARS FACSIMILE EDITION GREG LAND VARIANT (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/39330",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/39330/marvel_super_heroes_secret_wars_facsimile_edition_greg_land_variant_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-17T11:52:04-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 7,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39330/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2038",
-                            "name": "John Beatty",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/425",
-                            "name": "Greg Land",
-                            "role": "inker (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13127",
-                            "name": "Emily Newcomen",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/1759",
-                            "name": "Joe Rosen",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/946",
-                            "name": "Jim Shooter",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/2056",
-                            "name": "Nel Yomtov",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13352",
-                            "name": "Mike Zeck",
-                            "role": "penciler"
-                        }
-                    ],
-                    "returned": 7
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39330/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39330/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/251306",
-                            "name": "cover from Marvel Super Heroes Secret Wars 11 Facsimile Edition (2024) #11 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/251307",
-                            "name": "story from Marvel Super Heroes Secret Wars 11 Facsimile Edition (2024) #11 (VARIANT)",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
                     "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39330/comics",
+                    "collectionURI": "http://gateway.marvel.com/v1/public/series/1078/events",
                     "items": [
                         {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/115043",
-                            "name": "MARVEL SUPER HEROES SECRET WARS FACSIMILE EDITION GREG LAND VARIANT (2024) #11 (Variant)"
+                            "resourceURI": "http://gateway.marvel.com/v1/public/events/229",
+                            "name": "Annihilation"
                         }
                     ],
                     "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/39330/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 42764,
-                "title": "NEGASONIC TEENAGE WARHEAD AUDREY MOK VARIANT (2024 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/42764",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/42764/negasonic_teenage_warhead_audrey_mok_variant_2024_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2024,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-12-17T11:49:59-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 6,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42764/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13200",
-                            "name": "Sarah Brunstad",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14195",
-                            "name": "Eleonora Carlini",
-                            "role": "inker"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13294",
-                            "name": "Audrey Mok",
-                            "role": "penciler (cover)"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13008",
-                            "name": "Ruth Redmond",
-                            "role": "colorist"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12974",
-                            "name": "Vc Joe Sabino",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14382",
-                            "name": "Andrew Wheeler",
-                            "role": "writer"
-                        }
-                    ],
-                    "returned": 6
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42764/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42764/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268183",
-                            "name": "cover from Negasonic Teenage Warhead (2024) #1 (VARIANT)",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/268184",
-                            "name": "story from Negasonic Teenage Warhead (2024) #1 (VARIANT)",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42764/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/123476",
-                            "name": "NEGASONIC TEENAGE WARHEAD AUDREY MOK VARIANT (2024) #1 (Variant)"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/42764/events",
-                    "items": [],
-                    "returned": 0
-                },
-                "next": null,
-                "previous": null
-            },
-            {
-                "id": 43407,
-                "title": "WOMEN OF MARVEL: SHE-DEVILS (2025 - Present)",
-                "description": null,
-                "resourceURI": "http://gateway.marvel.com/v1/public/series/43407",
-                "urls": [
-                    {
-                        "type": "detail",
-                        "url": "http://marvel.com/comics/series/43407/women_of_marvel_she-devils_2025_-_present?utm_campaign=apiRef&utm_source=c759f8d1937a41560841ee92f4b16dc8"
-                    }
-                ],
-                "startYear": 2025,
-                "endYear": 2099,
-                "rating": "",
-                "type": "ongoing",
-                "modified": "2024-11-21T12:19:36-0500",
-                "thumbnail": {
-                    "path": "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
-                    "extension": "jpg"
-                },
-                "creators": {
-                    "available": 5,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43407/creators",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13200",
-                            "name": "Sarah Brunstad",
-                            "role": "editor"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14075",
-                            "name": "Vc Ariana Maher",
-                            "role": "letterer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/14428",
-                            "name": "Stephanie Phillips",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/12870",
-                            "name": "Alison Sampson",
-                            "role": "writer"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/creators/13606",
-                            "name": "Nina Vakueva",
-                            "role": "penciler (cover)"
-                        }
-                    ],
-                    "returned": 5
-                },
-                "characters": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43407/characters",
-                    "items": [],
-                    "returned": 0
-                },
-                "stories": {
-                    "available": 2,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43407/stories",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/272499",
-                            "name": "cover from Women of Marvel: She-Devils (2025) #1",
-                            "type": "cover"
-                        },
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/stories/272500",
-                            "name": "story from Women of Marvel: She-Devils (2025) #1",
-                            "type": "interiorStory"
-                        }
-                    ],
-                    "returned": 2
-                },
-                "comics": {
-                    "available": 1,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43407/comics",
-                    "items": [
-                        {
-                            "resourceURI": "http://gateway.marvel.com/v1/public/comics/125609",
-                            "name": "WOMEN OF MARVEL: SHE-DEVILS (2025) #1"
-                        }
-                    ],
-                    "returned": 1
-                },
-                "events": {
-                    "available": 0,
-                    "collectionURI": "http://gateway.marvel.com/v1/public/series/43407/events",
-                    "items": [],
-                    "returned": 0
                 },
                 "next": null,
                 "previous": null

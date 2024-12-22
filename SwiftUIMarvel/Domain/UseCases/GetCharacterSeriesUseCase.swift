@@ -36,29 +36,7 @@ final class GetCharacterSeriesUseCase: GetCharacterSeriesUseCaseContract {
 
 final class GetCharacterSeriesUseCaseMock: GetCharacterSeriesUseCaseContract {
     func execute(charID: String = "") async throws -> [MarvelSerie]? {
-        do {
-            let bundle = Bundle(for: GetCharactersUseCaseMock.self)
-            guard let url = bundle.url(forResource: "series", withExtension: "json"),
-                  let data = try? Data.init(contentsOf: url)  else {
-                throw NSError(domain: "com.aroaborealus.SwiftUIMarvel", code: -1)
-            }
-            
-            let formatter = DateFormatter()
-            formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss'.'SSS'Z'"
-            
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .formatted(formatter)
-            let decodedResponse = try decoder.decode(APIResponseSeries.self, from: data)
-            
-            
-            let APIseries = decodedResponse.data.results
-            print(APIseries)
-            FakeDB.shared.addSeries(APIseries, charID)
-
-            return FakeDB.shared.getSeries(characterID: charID)
-        } catch {
-            throw GetCharacterSeriesUseCaseError(reason: "Use Case Failed")
-        }
+        return [mockMarvelSeries,mockMarvelSeries,mockMarvelSeries]
     }
 }
 

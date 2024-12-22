@@ -24,8 +24,7 @@ struct ErrorView: View {
                 .bold()
                 .padding(.top, 40)
             Button {
-               //volver al login
-                appState.status = .loading
+                appState.status = .ready
             } label: {
                 Text("Volver")
                     .font(.title2)
@@ -37,8 +36,6 @@ struct ErrorView: View {
             }
 
         }
-        
-        
     }
 }
 

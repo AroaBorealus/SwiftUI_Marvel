@@ -7,26 +7,39 @@
 
 import Foundation
 
+protocol HomeViewModelContract {
+    var state: Status { get set }
+    var characters: [MarvelCharacter] { get set }
+    
+    func getCharacters()
+}
+
+
 @Observable
-final class HomeViewModel {
+final class HomeViewModel: HomeViewModelContract {
     var state: Status = .loading
     var characters = [MarvelCharacter]()
     
-    var filterUI : String = ""
-    
-    @ObservationIgnored
-    private var useCase: GetCharactersUseCaseContract //esto NO es un observable
-    
-    init(useCase: GetCharactersUseCaseContract = GetCharactersUseCase()) {
-        self.useCase = useCase
-        
-        Task{
-            await getCharacters()
-        }
+    init() {
+        getCharacters()
     }
     
-    @MainActor
-    func getCharacters() async {
+    
+    func getCharacters() {
         self.characters = FakeDB.shared.getCharacters()
+    }
+}
+
+
+final class HomeViewModelMock: HomeViewModelContract {
+    var state: Status = .loading
+    var characters = [MarvelCharacter]()
+    
+    init() {
+        getCharacters()
+    }
+    
+    func getCharacters() {
+        self.characters = [mockMarvelCharacter, mockMarvelCharacter, mockMarvelCharacter, mockMarvelCharacter]
     }
 }

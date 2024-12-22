@@ -7,9 +7,14 @@
 
 import Foundation
 
+enum DetailStatus {
+    case loading, ready, noData, error(error: String)
+}
+
+
 @Observable
 final class DetailViewModel {
-    var state: Status = .loading
+    var detailStatus: DetailStatus = .loading
     var marvelSeries = [MarvelSerie]()
     let characterID : String
     
@@ -37,12 +42,18 @@ final class DetailViewModel {
                 throw GetCharacterSeriesUseCaseError(reason: "Character array found empty")
             }
             
-            self.marvelSeries = series            
-//            self.homeState = .ready
+            if(series.isEmpty){
+                detailStatus = .noData
+                return
+            }
+            
+            marvelSeries = series
+            detailStatus = .ready
+            
         } catch let error as GetCharacterSeriesUseCaseError {
-            state = .error(error: error.reason)
+            detailStatus = .error(error: error.reason)
         } catch {
-            state = .error(error: "A home error has occurred")
+            detailStatus = .error(error: "A home error has occurred")
         }
     }
 }

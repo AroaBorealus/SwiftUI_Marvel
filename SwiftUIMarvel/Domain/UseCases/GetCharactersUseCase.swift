@@ -26,24 +26,8 @@ final class GetCharactersUseCase: GetCharactersUseCaseContract {
 
 final class GetCharactersUseCaseMock: GetCharactersUseCaseContract {
     func execute() async throws{
-        do {
-            let bundle = Bundle(for: GetCharactersUseCaseMock.self)
-            guard let url = bundle.url(forResource: "characters", withExtension: "json"),
-                  let data = try? Data.init(contentsOf: url)  else {
-                throw NSError(domain: "com.aroaborealus.SwiftUIMarvel", code: -1)
-            }
-            
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .iso8601
-            let decodedResponse = try decoder.decode(APIResponseCharacter.self, from: data)
-            
-            
-            let characters = decodedResponse.data.results
-            print(characters)
-            FakeDB.shared.addCharacters(characters)
-        } catch {
-            throw GetCharactersUseCaseError(reason: "Use Case Failed")
-        }
+        FakeDB.shared.clearCharacters()
+        FakeDB.shared.addCharacters([mockMarvelCharacter])
     }
 }
 

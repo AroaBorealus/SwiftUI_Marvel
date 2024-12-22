@@ -6,3 +6,7 @@
   
 */
 "Entrar" = "Login";
+"Volver" = "Volver";
+"homeNavBarTitle" = "Personajes";
+"loaderViewText" = "Cargando...";
+"emptyViewText" = "Ups!! Parece que Jeff se comió todo el contenido de esta vista...\n\nNo hay nada más que ver aquí";

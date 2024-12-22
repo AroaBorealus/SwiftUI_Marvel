@@ -38,3 +38,5 @@ final class MarvelSerie : Identifiable {
         self.marverlCharacters.append(characterID)
     }
 }
+
+let mockMarvelSeries = MarvelSerie(serieId: "serieID", serieTitle: "SerieTitle", thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/6/30/52c1e67d0a952", thumbnailExtension: "jpg"), characterID: "11234")

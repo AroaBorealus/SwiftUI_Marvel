@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class FakeDB{
+final class FakeDB{     //TODO: Implement CoreData or SwiftData instead
     
     static var shared = FakeDB()
     
