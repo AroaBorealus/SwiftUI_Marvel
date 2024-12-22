@@ -10,32 +10,36 @@ import Foundation
 @Observable
 final class DetailViewModel {
     var state: Status = .loading
-    var apiSeries = [APISeries]()
-    
+    var marvelSeries = [MarvelSerie]()
+    let characterID : String
     
     @ObservationIgnored
-    private var useCase: GetAllSeriesUseCaseContract //esto NO es un observable
+    private var useCase: GetCharacterSeriesUseCaseContract
     
-    init(useCase: GetAllSeriesUseCaseContract = GetAllSeriesUseCase()) {
+    init(characterID: String = "", useCase: GetCharacterSeriesUseCaseContract = GetCharacterSeriesUseCase()) {
         self.useCase = useCase
-        
+        self.characterID = characterID
+    }
+    
+    public func loadCharacter()
+    {
         Task{
-            await getSeries()
+            await GetCharacterSeries(characterID: characterID)
         }
     }
     
     @MainActor
-    func getSeries() async {
+    func GetCharacterSeries(characterID: String) async {
         do {
-            let data = try await useCase.execute()
+            let data = try await useCase.execute(charID: characterID)
             
             guard let series = data else {
-                throw GetAllSeriesUseCaseError(reason: "Character array found empty")
+                throw GetCharacterSeriesUseCaseError(reason: "Character array found empty")
             }
             
-            self.apiSeries = series            
+            self.marvelSeries = series            
 //            self.homeState = .ready
-        } catch let error as GetAllSeriesUseCaseError {
+        } catch let error as GetCharacterSeriesUseCaseError {
             state = .error(error: error.reason)
         } catch {
             state = .error(error: "A home error has occurred")

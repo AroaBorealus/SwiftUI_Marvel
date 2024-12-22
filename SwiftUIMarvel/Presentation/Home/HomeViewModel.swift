@@ -10,7 +10,7 @@ import Foundation
 @Observable
 final class HomeViewModel {
     var state: Status = .loading
-    var apiCharacters = [APICharacter]()
+    var characters = [MarvelCharacter]()
     
     var filterUI : String = ""
     
@@ -27,21 +27,6 @@ final class HomeViewModel {
     
     @MainActor
     func getCharacters() async {
-        do {
-            let data = try await useCase.execute()
-            
-            guard let characters = data else {
-                throw GetCharactersUseCaseError(reason: "Character array found empty")
-            }
-            
-            self.apiCharacters = characters
-            state = .error(error: "yupierror")
-            
-//            self.homeState = .ready
-        } catch let error as GetCharactersUseCaseError {
-            state = .error(error: error.reason)
-        } catch {
-            state = .error(error: "A home error has occurred")
-        }
+        self.characters = FakeDB.shared.getCharacters()
     }
 }

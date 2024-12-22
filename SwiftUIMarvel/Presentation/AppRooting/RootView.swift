@@ -18,7 +18,11 @@ struct RootView: View {
                 }
             case .ready:
                 withAnimation {
-                    DetailView()
+                    HomeView()
+                }
+            case .detail(charID: let charID):
+                withAnimation{
+                    DetailView(viewModel: DetailViewModel(characterID: charID))
                 }
             case .error(error: let errorString):
                 withAnimation {

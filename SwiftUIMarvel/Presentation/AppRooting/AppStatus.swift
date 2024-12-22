@@ -9,5 +9,5 @@ import Foundation
 
 ///Estados de la aplicacion
 enum Status {
-    case loading, ready, error(error: String)
+    case loading, ready, detail(charID: String), error(error: String)
 }

@@ -23,19 +23,16 @@ struct APISession: APISessionContract {
     
     func request<Request: APIRequest>(apiRequest: Request) async throws -> Data {
         do {
-            // Construir y preparar la solicitud
             var request = try apiRequest.getRequest()
             requestInterceptors.forEach { $0.intercept(request: &request) }
             print(request.url!)
-            // Realizar la solicitud asincrónica
+
             let (data, response) = try await session.data(for: request)
             
-            // Validar la respuesta HTTP
             guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
                 throw APIErrorResponse.network(apiRequest.path)
             }
             
-            // Retornar los datos obtenidos
             return data
         } catch {
             throw error

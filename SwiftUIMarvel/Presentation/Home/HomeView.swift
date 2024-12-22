@@ -19,38 +19,16 @@ struct HomeView: View {
     var body: some View {
         NavigationStack{
             List{
-                ForEach(viewModel.apiCharacters){ character in
+                ForEach(viewModel.characters){ character in
                     NavigationLink {
-//                        HeroesDetailView(hero: hero, vmHeros: viewModel)
+                        DetailView(viewModel: DetailViewModel(characterID: character.characterId))
                     } label: {
                         CharacterRowView(character: character)
                     }
-
                 }
             }
             .navigationBarTitle("Characters")
             .searchable(text:$viewModel.filterUI, prompt: "Buscar personajes")
-//            .onChange(of: viewModel.filterUI, { oldValue, newValue in
-//
-//                //Llamar a la recarga...
-//                if !newValue.isEmpty{
-//                    //no Vacio
-//                    //minimo 2 caractres
-//                    if newValue.count > 2{
-//                        //llamo al viewmodel.  Laamos llamada de red
-//                        Task{
-//                            await viewModel.getHeros(newSearch: newValue)
-//                        }
-//                    }
-//                } else {
-//                    //Vacio
-//                    Task{
-//                        await viewModel.getHeros(newSearch: "")
-//                    }
-//
-//                }
-//
-//            })
         }
     }
 }

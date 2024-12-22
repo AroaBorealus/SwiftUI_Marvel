@@ -7,12 +7,13 @@
 
 import Foundation
 
-struct GetSeriesAPIRequest: APIRequest {
+struct GetCharacterSeriesAPIRequest: APIRequest {
     typealias Response = APIResponseSeries
-    
+        
     let method: HTTPMethod = .GET
-    let path: String = "/v1/public/series"
+    var path: String
     
-    //Para comics de 1 personaje en concreto:
-    //v1/public/series?characters=1009550&apikey=c759f8d1937a41560841ee92f4b16dc8&ts=1&hash=2fa0dff6e73d64591c36c0dcb6765d25&orderBy=-modified
+    init(charID: String) {
+        self.path = "/v1/public/characters/\(charID)/series"
+    }
 }

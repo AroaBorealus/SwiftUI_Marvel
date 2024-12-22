@@ -66,10 +66,19 @@ enum Role: String, Decodable {
     case inker = "inker"
     case coverInker = "inker (cover)"
     case letterer = "letterer"
+    case lettererCover = "letterer (cover)"
     case penciler = "penciler"
+    case penciller = "penciller"
+    case Penciller = "Penciller"
     case coverPenciler = "penciler (cover)"
+    case coverPenciller = "penciller (cover)"
     case writer = "writer"
     case coverPainter = "painter (cover)"
+    case other = "other"
+    case artist = "artist"
+    case directorOfDigitalContent = "director of digital content"
+    case digitalCoordinator = "digital coordinator"
+    case digitalProductionManager = "digital production manager"
 }
 
 enum ItemType: String, Decodable {
@@ -98,6 +107,7 @@ enum ResultType: String, Decodable {
     case empty = ""
     case oneShot = "one shot"
     case ongoing = "ongoing"
+    case limited = "limited"
 }
 
 struct Creators: Decodable {

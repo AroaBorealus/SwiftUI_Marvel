@@ -16,15 +16,33 @@ struct DetailView: View {
     }
     
     var body: some View {
-        List{
-            ForEach(viewModel.apiSeries){ serie in
-                Text(serie.title)
+        Text("Series")
+            .font(.largeTitle)
+        ScrollView(.horizontal) {
+            HStack(spacing: 20) {
+                ForEach(viewModel.marvelSeries){ serie in
+                    VStack {
+                        AsyncImage(url: URL(string: "\(serie.thumbnailPath)/landscape_xlarge.\(serie.thumbnailExtension)")) { photo in
+                            photo
+                                .resizable()
+                                .cornerRadius(20)
+                                .padding([.leading, .trailing], 20)
+                        } placeholder: {
+                            ProgressView()
+                                .progressViewStyle(CircularProgressViewStyle())
+                        }
+                        Text(serie.serieTitle)
+                    }
+                    .frame(width: 250, height: 350)
+                }
             }
+        }.onAppear{
+            viewModel.loadCharacter()
         }
     }
 }
 
 #Preview {
-    DetailView(viewModel: DetailViewModel(useCase: GetAllSeriesUseCaseMock()))
+    DetailView(viewModel: DetailViewModel(useCase: GetCharacterSeriesUseCaseMock()))
         .environment(AppStateVM())
 }

@@ -8,9 +8,21 @@
 import SwiftUI
 
 struct LoadingView: View {
+    @Environment(AppStateVM.self) var appState
+    
+    @State var viewModel: LoadingViewModel
+
+    init(viewModel: LoadingViewModel = LoadingViewModel()) {
+        self.viewModel = viewModel
+    }
         
     var body: some View {
         ZStack{
+            ExecuteCode{
+                if(viewModel.didFinishLoad){
+                    appState.status = .ready
+                }
+            }
             Image(.image)
                 .resizable()
                 .scaledToFill()
@@ -23,6 +35,17 @@ struct LoadingView: View {
     }
 }
 
+struct ExecuteCode : View {
+    init( _ codeToExec: () -> () )
+    {
+        codeToExec()
+    }
+    
+    var body: some View {
+        EmptyView()
+    }
+}
+
 #Preview {
-    LoadingView()
+    LoadingView().environment(AppStateVM())
 }

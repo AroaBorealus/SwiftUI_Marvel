@@ -8,16 +8,16 @@
 import Foundation
 
 protocol GetCharactersUseCaseContract {
-    func execute() async throws -> [APICharacter]?
+    func execute() async throws
 }
 
 final class GetCharactersUseCase: GetCharactersUseCaseContract {
-    func execute() async throws -> [APICharacter]? {
+    func execute() async throws {
         do {
             let response: APIResponseCharacter = try await GetCharactersAPIRequest().perform()
             let characters = response.data.results
             print(characters)
-            return characters
+            FakeDB.shared.addCharacters(characters)
         } catch {
             throw GetCharactersUseCaseError(reason: "Use Case Failed")
         }
@@ -25,7 +25,7 @@ final class GetCharactersUseCase: GetCharactersUseCaseContract {
 }
 
 final class GetCharactersUseCaseMock: GetCharactersUseCaseContract {
-    func execute() async throws -> [APICharacter]? {
+    func execute() async throws{
         do {
             let bundle = Bundle(for: GetCharactersUseCaseMock.self)
             guard let url = bundle.url(forResource: "characters", withExtension: "json"),
@@ -40,7 +40,7 @@ final class GetCharactersUseCaseMock: GetCharactersUseCaseContract {
             
             let characters = decodedResponse.data.results
             print(characters)
-            return characters
+            FakeDB.shared.addCharacters(characters)
         } catch {
             throw GetCharactersUseCaseError(reason: "Use Case Failed")
         }
